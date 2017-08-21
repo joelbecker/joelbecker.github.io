@@ -15,9 +15,48 @@
 		<style>
 			#header {background-image: url("./images/header_old.jpg")}
 		</style>
+
+		<!-- Style for alert panes. -->
+		<style>
+			.alert {
+				padding: 20px;
+				background-color: #f44336;
+				color: white;
+				opacity: 1;
+				transition: opacity 0.6s;
+			}
+
+			.alert.success {background-color: #4CAF50;}
+			.alert.info {background-color: #2196F3;}
+			.alert.warning {background-color: #ff9800;}
+
+			.closebtn {
+				margin-left: 15px;
+				color: white;
+				font-weight: bold;
+				float: right;
+				font-size: 22px;
+				line-height: 20px;
+				cursor: pointer;
+				transition: 0.3s;
+			}
+
+			.closebtn:hover {
+				color: black;
+			}
+		</style>
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
+
+			<!-- Beta Alert -->
+			<div class="alert info">
+				<span class="closebtn">&times;</span>
+				<strong style="color: #ffffff;">Please Note</strong>
+				<emph>joelbecker.github.io</emph> is currently in beta!
+				The current version is not final and includes
+				placeholder content. The new version will be launched soon on <emph>joelbecker.ca</emph>.
+			</div>
 
 			<!-- Header -->
 				<div id="header">
@@ -57,10 +96,10 @@
 								<h3><a>Data Science</a></h3>
 							</header>
 							<p>
-								I excel at creating powerful, reproducible insights using statistical inference
-								and data visualization in Python and R. Past analytics projects have involved:
-								analyzing social networks, topic modelling text, large-scale
-								multi-phase survey research. This work required
+								I excel at creating reproducible insights using statistical inference
+								and data visualization in Python and R. Past analytics projects have involved
+								analyzing social networks, topic modelling text, and large-scale
+								multi-phase survey research. This work involved
 								extracting, cleaning, and integrating data from multiple sources.
 							</p>
 						</article>
@@ -71,8 +110,9 @@
 							<p>
 								I have two years' experience designing flexible and coder-friendly Python packages for data extraction and data
 								integration. I have made key improvements to the open-source data integration toolkit
-								<a href="https://github.com/J535D165/recordlinkage">recordlinkage</a>,
-								and created the data extraction package
+								<a href="https://github.com/J535D165/recordlinkage">recordlinkage</a> by adding new features
+								and eliminating a major performance bottleneck.
+								I also created the data extraction package
 								<a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a>
 								from the ground up.
 							</p>
@@ -127,8 +167,8 @@
 						</article>
 						<article class="4u 12u(mobile) special">
 							<header>
-								<a href="" class="image featured"><img src="images/pic04_scala.jpg" alt=""/></a>
-								<h3><a >Scala</a></h3>
+								<a href="" class="image featured"><img src="images/pic04_sql.jpg" alt=""/></a>
+								<h3><a >SQL</a></h3>
 							</header>
 							<p>
 								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
@@ -158,7 +198,7 @@
 						</article>
 						<article class="4u 12u(mobile) special">
 							<header>
-								<h3><a >SQL</a></h3>
+								<h3><a >HTML</a></h3>
 							</header>
 							<p>
 								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
@@ -207,14 +247,28 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.onvisible.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+
+		<!-- Script for alert panes. -->
+		<script>
+            var close = document.getElementsByClassName("closebtn");
+            var i;
+
+            for (i = 0; i < close.length; i++) {
+                close[i].onclick = function(){
+                    var div = this.parentElement;
+                    div.style.opacity = "0";
+                    setTimeout(function(){ div.style.display = "none"; }, 600);
+                }
+            }
+		</script>
 
 	</body>
 </html>
