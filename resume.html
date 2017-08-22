@@ -5,269 +5,310 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Résumé</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<style>
-			#header {background-image: url("./images/header_old.jpg")}
-		</style>
+<head>
+    <title>Résumé</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 
-		<!-- Style for alert panes. -->
-		<style>
-			.alert {
-				padding: 20px;
-				background-color: #f44336;
-				color: white;
-				opacity: 1;
-				transition: opacity 0.6s;
-			}
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
-			.alert.success {background-color: #4CAF50;}
-			.alert.info {background-color: #2196F3;}
-			.alert.warning {background-color: #ff9800;}
+    <style>
+        #header {
+            background-image: url("./images/header_old.jpg")
+        }
+    </style>
 
-			.closebtn {
-				margin-left: 15px;
-				color: white;
-				font-weight: bold;
-				float: right;
-				font-size: 22px;
-				line-height: 20px;
-				cursor: pointer;
-				transition: 0.3s;
-			}
+    <!-- Style for alert panes. -->
+    <style>/**/
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+        opacity: 1;
+        transition: opacity 0.6s;
+    }
 
-			.closebtn:hover {
-				color: black;
-			}
-		</style>
-	</head>
-	<body class="no-sidebar">
-		<div id="page-wrapper">
+    .alert.success {
+        background-color: #4CAF50;
+    }
 
-			<!-- Beta Alert -->
-			<div class="alert info">
-				<span class="closebtn">&times;</span>
-				<strong style="color: #ffffff;">Please Note</strong>
-				<emph>joelbecker.github.io</emph> is currently in beta!
-				The current version is not final and includes
-				placeholder content. The new version will be launched soon on <emph>joelbecker.ca</emph>.
-			</div>
+    .alert.info {
+        background-color: #2196F3;
+    }
 
-			<!-- Header -->
-				<div id="header">
+    .alert.warning {
+        background-color: #ff9800;
+    }
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">Résumé</a></h1>
-							</header>
-						</div>
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
 
-					<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#banner">About Me</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#testimonials">Testimonials</a></li>
-							<li><a href="resume.html">Résumé</a></li>
-						</ul>
-					</nav>
+    .closebtn:hover {
+        color: black;
+    }
+    </style>
+</head>
+<body class="no-sidebar">
+<div id="page-wrapper">
 
-				</div>
+    <!-- Beta Alert -->
+    <div class="alert info">
+        <span class="closebtn">&times;</span>
+        <strong style="color: #ffffff;">Please Note</strong>
+        <emph>joelbecker.github.io</emph>
+        is currently in beta!
+        The current version is not final and includes
+        placeholder content. The new version will be launched soon on
+        <emph>joelbecker.ca</emph>
+        .
+    </div>
 
+    <!-- Header -->
+    <div id="header">
 
-			<!-- Skills -->
-			<div class="wrapper style1">
+        <!-- Inner -->
+        <div class="inner">
+            <header>
+                <h1><a href="index.html" id="logo">Résumé</a></h1>
+            </header>
+        </div>
 
-				<section id="skills" class="container special">
-					<header>
-						<h2>Skills</h2>
-						<p>Whether I'm developing new tools or making statistical inferences, I'm all about data.</p>
-					</header>
-					<div class="row">
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a>Data Science</a></h3>
-							</header>
-							<p>
-								I excel at creating reproducible insights using statistical inference
-								and data visualization in Python and R. Past analytics projects have involved
-								analyzing social networks, topic modelling text, and large-scale
-								multi-phase survey research. This work involved
-								extracting, cleaning, and integrating data from multiple sources.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a >Software Development</a></h3>
-							</header>
-							<p>
-								I have two years' experience designing flexible and coder-friendly Python packages for data extraction and data
-								integration. I have made key improvements to the open-source data integration toolkit
-								<a href="https://github.com/J535D165/recordlinkage">recordlinkage</a> by adding new features
-								and eliminating a major performance bottleneck.
-								I also created the data extraction package
-								<a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a>
-								from the ground up.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a >Research Design and Implementation</a></h3>
-							</header>
-							<p>
-								I have three years' experience designing and implementing
-								investigations of complex social phenomena.
-								Past research includes how
-								supervisors' race and gender affect workplace outcomes, and changes in the
-								intellectual diversity of scientific research teams.
-							</p>
-						</article>
-					</div>
-				</section>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#banner">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="resume.html">Résumé</a></li>
+            </ul>
+        </nav>
 
-			</div>
+    </div>
 
 
+    <!-- Skills -->
+    <div class="wrapper style1">
 
-			<!-- Technical -->
-			<div class="wrapper style1">
+        <section id="skills" class="container special">
+            <header>
+                <h2>Skills</h2>
+                <p>Whether I'm developing new tools or making statistical inferences, I'm all about data.</p>
+            </header>
+            <div class="row">
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>Data Science</a></h3>
+                    </header>
+                    <p>
+                        I excel at creating reproducible insights using statistical inference
+                        and data visualization in Python and R. Past analytics projects have involved
+                        analyzing social networks, topic modelling text, and large-scale
+                        multi-phase survey research. This work involved
+                        extracting, cleaning, and integrating data from multiple sources.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>Software Development</a></h3>
+                    </header>
+                    <p>
+                        I have two years' experience designing flexible and coder-friendly Python packages for data
+                        extraction and data
+                        integration. I have made key improvements to the open-source data integration toolkit
+                        <a href="https://github.com/J535D165/recordlinkage">recordlinkage</a> by adding new features
+                        and eliminating a major performance bottleneck.
+                        I also created the data extraction package
+                        <a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a>
+                        from the ground up.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>Research Design and Implementation</a></h3>
+                    </header>
+                    <p>
+                        I have three years' experience designing and implementing
+                        investigations of complex social phenomena.
+                        Past research includes how
+                        supervisors' race and gender affect workplace outcomes, and changes in the
+                        intellectual diversity of scientific research teams.
+                    </p>
+                </article>
+            </div>
+        </section>
 
-				<section id="technical" class="container special">
-					<header>
-						<h2>Technical</h2>
-						<p>My favourite tools are the languages I use to make data talk.</p>
-					</header>
-					<div class="row">
-						<article class="4u 12u(mobile) special">
-							<header>
-								<a href="" class="image featured"><img src="images/pic04_python.jpg" alt=""/></a>
-								<h3><a >Python</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<a href="" class="image featured"><img src="images/pic04_r.jpg" alt=""/></a>
-								<h3><a >R Studio</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<a href="" class="image featured"><img src="images/pic04_sql.jpg" alt=""/></a>
-								<h3><a >SQL</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-					</div>
-
-					<div class="row">
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a >C++</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a >MatLab</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<header>
-								<h3><a >HTML</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-					</div>
-
-				</section>
-
-			</div>
+    </div>
 
 
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<div class="12u">
+    <!-- Technical -->
+    <div class="wrapper style1">
 
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>Get in touch!</h3>
-										</header>
-										<p>Want to collaborate? Want to hire me? Follow the links below.</p>
-										<ul class="icons">
-											<li><a href="mailto:%22Joel%20Becker%22%3cmail@joelbecker.ca%3e" class="icon fa-envelope"><span class="label">Mail</span></a></li>
-											<li><a href="https://github.com/joelbecker" class="icon fa-github"><span class="label">GitHub</span></a></li>
-											<li><a href="https://www.linkedin.com/in/joel-becker-8b82a2127/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										</ul>
-									</section>
+        <section id="technical" class="container special">
+            <header>
+                <h2>Technical</h2>
+                <p>My favourite tools are the languages I use to make data talk.</p>
+            </header>
+            <div class="row">
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <a href="" class="image featured"><img src="images/pic04_python.jpg" alt=""/></a>
+                        <h3><a>Python</a></h3>
+                    </header>
+                    <p>
+                        As an experienced Python programmer, I don't just use Python for data science
+                        projects — I also develop data extraction and data integration tools which
+                        streamline the data science workflow. I am an active contributor to
+                        the <a href="https://github.com/J535D165/recordlinkage">recordlinkage</a>
+                        data integration toolkit, and created the <a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a>
+                        data extraction tool from the ground up. I work diligently to create
+                        software and data science solutions that are efficient, extensible,
+                        and user-friendly.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <a href="" class="image featured"><img src="images/pic04_r.jpg" alt=""/></a>
+                        <h3><a>R Studio</a></h3>
+                    </header>
+                    <p>
+                        I have three years' experience using R's powerful libraries for
+                        data analysis and data visualization. In addition to data management,
+                        data visualization with <em>ggplot2</em>, and classical
+                        statistical inference, I use R for structural social network analysis,
+                        textual topic modelling, and psychometrics.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <a href="" class="image featured"><img src="images/pic04_sql.jpg" alt=""/></a>
+                        <h3><a>SQL</a></h3>
+                    </header>
+                    <p>
+                        In addition to proficiency in writing SQL queries, I have studied
+                        topics in data base theory including.
+                    </p>
+                </article>
+            </div>
 
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; Joel Becker. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-										</ul>
-									</div>
+            <div class="row">
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>C++</a></h3>
+                    </header>
+                    <p>
+                        Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+                        etiam
+                        porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer
+                        interdum.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>MatLab</a></h3>
+                    </header>
+                    <p>
+                        Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+                        etiam
+                        porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer
+                        interdum.
+                    </p>
+                </article>
+                <article class="4u 12u(mobile) special">
+                    <header>
+                        <h3><a>HTML</a></h3>
+                    </header>
+                    <p>
+                        Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+                        etiam
+                        porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer
+                        interdum.
+                    </p>
+                </article>
+            </div>
 
-							</div>
+        </section>
 
-						</div>
-					</div>
-				</div>
+    </div>
 
-		</div>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.onvisible.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="12u">
 
-		<!-- Script for alert panes. -->
-		<script>
-            var close = document.getElementsByClassName("closebtn");
-            var i;
+                    <!-- Contact -->
+                    <section class="contact">
+                        <header>
+                            <h3>Get in touch!</h3>
+                        </header>
+                        <p>Want to collaborate? Want to hire me? Follow the links below.</p>
+                        <ul class="icons">
+                            <li><a href="mailto:%22Joel%20Becker%22%3cmail@joelbecker.ca%3e"
+                                   class="icon fa-envelope"><span class="label">Mail</span></a></li>
+                            <li><a href="https://github.com/joelbecker" class="icon fa-github"><span class="label">GitHub</span></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/joel-becker-8b82a2127/"
+                                   class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        </ul>
+                    </section>
 
-            for (i = 0; i < close.length; i++) {
-                close[i].onclick = function(){
-                    var div = this.parentElement;
-                    div.style.opacity = "0";
-                    setTimeout(function(){ div.style.display = "none"; }, 600);
-                }
-            }
-		</script>
-	</body>
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <ul class="menu">
+                            <li>&copy; Joel Becker. All rights reserved.</li>
+                            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.onvisible.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+<!-- Script for alert panes. -->
+<script>
+    var close = document.getElementsByClassName("closebtn");
+    var i;
+
+    for (i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+            var div = this.parentElement;
+            div.style.opacity = "0";
+            setTimeout(function () {
+                div.style.display = "none";
+            }, 600);
+        }
+    }
+</script>
+</body>
 </html>
