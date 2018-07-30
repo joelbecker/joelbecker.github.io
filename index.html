@@ -87,7 +87,7 @@
                 <h1><a id="logo">Joel Becker</a></h1>
                 <hr/>
                 <p>
-                    Software Developer &nbsp;//&nbsp; Data Scientist &nbsp;//&nbsp; Bachelor of Knowledge Integration
+                    Data Scientist &nbsp;//&nbsp; Software Developer &nbsp;//&nbsp; Bachelor of Knowledge Integration
                 </p>
             </header>
             <footer>
@@ -101,7 +101,7 @@
                 <li>
                     <a href="index.html">Home</a>
                     <ul>
-                        <li><a href="index.html#banner">About Me</a></li>
+                        <li><a href="index.html#banner">Bio</a></li>
                         <li><a href="index.html#projects">Projects</a></li>
                         <li><a href="index.html#testimonials">Testimonials</a></li>
                         <li><a href="index.html#footer">Contact</a></li>
@@ -119,16 +119,27 @@
                     <ul>
                         <li><a href="experience.html#shopify">Shopify</a></li>
                         <li><a href="experience.html#netlab">NetLab</a></li>
-                        <li><a href="experience.html#conrad">Conrad Centre</a></li>
+                        <li><a href="experience.html#conrad">Conrad</a></li>
                         <li><a href="experience.html#slmc">Silver Lake</a></li>
 
                     </ul>
                 </li>
                 <li>
                     <a href="education.html">Education</a>
+                    <ul>
+                        <li><a href="education.html">Bachelor of Knowledge Integration</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="research.html">Research</a>
+                    <ul>
+                        <li><a href="experience.html#thesis">Honours Thesis</a></li>
+                        <li><a href="experience.html#projects">Undergraduate Research</a></li>
+
+                    </ul>
                 </li>
 
-                <li><a href="joelbecker_resume.pdf">Résumé</a></li>
+                <!-- <li><a href="joelbecker_resume.pdf">Résumé</a></li> -->
             </ul>
         </nav>
 
@@ -140,35 +151,40 @@
             <h2>Hi. I'm <strong>Joel Becker</strong>.</h2><!---->
             <br>
             <p style="margin-left: 5%; margin-right: 5%">
-                I'm an early career <strong>data scientist</strong>
-                who holds a <strong>Bachelor of Knowledge Integration</strong>
-                from the University of Waterloo.
-                Based in Waterloo, I currently work as a
-                data engineer at Shopify.
-                Before that, I developed open source tools
-                for data integration and data extraction
+                I work as a data scientist at <strong>Shopify</strong>
+                where I build scalable data assets, pipelines, and systems
+                that support an innovative community of decision makers and
+                developers.
+
+                Before Shopify, I developed open source
+                entity matching and data extraction tools
                 with the University of Waterloo's NetLab,
                 enabling our interdisciplinary
                 research team's leading-edge research in
                 large-scale collaboration networks.
-                My own research has investigated complex social
+
+                <br><br>
+
+                I hold a <strong>Bachelor of Knowledge Integration</strong>
+                from the University of Waterloo, where I honed my data science
+                and interdisciplinary research skills.
+                My own research is focused on complex social
                 phenomena, from large-scale trends in the intellectual
                 diversity of social science research teams, to the impact of
                 workplace supervisors' race and gender on their
                 subordinates' reactions to fair or unfair treatment,
                 to online responses to the Syrian refugee crisis.
 
+                <br><br>
+
+                I believe that the frontier
+                of data science is not just defined by technical achievement,
+                but also by data scientists' ability to engage
+                with the social, ethical, and societal context of our
+                work.
+
             </p>
             <br>
-            <!--<br>-->
-            <!--<ul class="icons">-->
-            <!--<li><a href="mailto:%22Joel%20Becker%22%3cmail@joelbecker.ca%3e" class="icon fa-envelope"><span class="label">Mail</span></a></li>-->
-            <!--<li><a href="https://github.com/joelbecker" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
-            <!--<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
-            <!--</ul>-->
-            <!--<p>-->
-            <!--<strong>Have questions or want to collaborate? I want to hear from you!</strong>-->
-            <!--</p>-->
         </header>
     </section>
 
@@ -178,12 +194,85 @@
         <section id="projects" class="container special">
             <header>
                 <h2>Projects</h2>
-                <p>A quick look at some of my work, from open source software development to organizational
-                    research.</p>
+                <p>
+                    A quick look at some of my work, from open source software
+                    development to data science at scale.
+                </p>
             </header>
             <div class="row">
 
-                <!-- TODO: Create project pages? With code examples? https://highlightjs.org/ -->
+
+                <article class="4u 12u(mobile) special">
+                    <a class="image featured"><img src="images/fpm.jpg" alt=""/></a>
+                    <header>
+                        <h3>Eventstream Pattern Mining</h3>
+                    </header>
+                    <p>
+
+                      Given a high-volume, high-velocity source of unprocessed
+                      event data, our team of data scientists used
+                      <a href="https://spark.apache.org/docs/2.2.0/mllib-frequent-pattern-mining.html">
+                        SparkML's powerful frequent pattern mining capabilities.
+                      </a>
+                      to identify frequent sequences of events in context. This
+                      foundational work will be scaled to put billions
+                      of data points into context, empowering cross-functional
+                      stakeholders to understand the needs of their audience.
+
+                        <!-- Our team of data scientists turned contextless data points
+                        into meaningful insights using
+                        <a href="https://spark.apache.org/docs/2.2.0/mllib-frequent-pattern-mining.html">
+                          SparkML's powerful frequent pattern mining capabilities.
+                        </a>
+                        Turning data into knowledge is hard, because real-world
+                        events are complex, interconnected, and only meaningful
+                        in context. Given a
+                        high-volume, high-velocity source of unprocessed event
+                        data, we dug deep to find common patterns in the event
+                        stream. This foundational work can be scaled to put
+                        billions of data points into context, empowering
+                        cross-functional stakeholders to understand the needs
+                        of their audience. -->
+                        <a href="https://burst.shopify.com/photos/highway-lights-at-night" style="color:darkgray;">
+                            Image: Matthew Henry // Burst</i>
+                        </a>
+                    </p>
+                </article>
+
+                <article class="4u 12u(mobile) special">
+                    <a class="image featured"><img src="images/sqlcoach.jpg" alt=""/></a>
+                    <header>
+                        <h3>SQL Coach</h3>
+                    </header>
+                    <p>
+
+                      SQL Coach is a streaming service for delivering real-time feedback
+                      to train Shopify employees how to craft elegant and performant SQL queries. The project leverages
+                      <a href="https://databricks.com/blog/2016/07/28/structured-streaming-in-apache-spark.html">
+                        Structured Streaming in Apache Spark</a>
+                      with <a href="https://kafka.apache.org/">Apache Kafka</a>
+                      data streams, as well as existing proprietary systems,
+                      to provide a low-maintenance and high-performance solution.
+
+<!--
+                        SQL best practices
+                        are difficult for data scientists and beginners
+                        alike. SQL Coach takes data education to the user by
+                        giving specific and actionable feedback to users after
+                        they submit an SQL query.
+                        The result is a streaming service for delivering
+                        real-time feedback to train Shopify employees how to craft
+                        elegant and performant SQL queries. The project leverages
+
+                        data streams,
+                        as well as existing propriety systems, to provide a
+                        low-maintenance and high-performance solution. -->
+
+                        <a href="https://burst.shopify.com/photos/coding-team-working-on-laptops" style="color:darkgray;">
+                            Image: Nicole De Khors // Burst
+                        </a>
+                    </p>
+                </article>
 
                 <article class="4u 12u(mobile) special">
                     <a class="image featured"><img src="images/recordlinkage.jpg" alt=""/></a>
@@ -193,8 +282,21 @@
                         </h3>
                     </header>
                     <p>
+
                         <a href="https://github.com/J535D165/recordlinkage">recordlinkage</a>
-                        is a powerful open-source toolkit for
+                        is a powerful open-source toolkit for intelligently
+                        matching and merging data from multiple sources.
+                        I contributed to the project by
+                        <a href="https://github.com/J535D165/recordlinkage/pull/38">
+                          making a key performance bottleneck
+                          <em>up to 97 times faster</em>
+                        </a>,
+                        and by collaborating to add new features
+                        such as an all-new workflow for fusing
+                        matched records and new string comparison
+                        algorithms.
+
+                        <!-- is a powerful open-source toolkit for
                         matching and merging data from multiple sources. I
                         dramatically improved performance
                         by identifying inefficiencies in a major performance bottleneck,
@@ -209,74 +311,18 @@
                         as well as collaboratively implementing
                         <a href="https://github.com/J535D165/recordlinkage/pull/37">
                             two new record comparison algorithms
-                        </a>.
+                        </a>. -->
                         <a href="https://flic.kr/p/3hEPs1" style="color:darkgray;">
                             Image: Stella Dauer // Flikr // <i class="fa fa-creative-commons" aria-hidden="true"></i>
                         </a>
                     </p>
                 </article>
 
-                <article class="4u 12u(mobile) special">
-                    <a class="image featured"><img src="images/book.jpg" alt=""/></a>
-                    <!-- Maybe switch to https://flic.kr/p/4rFX1 ?-->
-                    <header>
-                        <h3><a>Honours Thesis</a></h3>
-                    </header>
-                    <p>
-                        My thesis investigated whether the race and gender of workplace supervisors changes how their
-                        subordinates react to fair or unfair treatment. In a large-scale multi-phase field survey of
-                        400+ workers, I found that supervisors' race and gender do not affect how subordinates evaluated
-                        supervisors who they perceive treat them with dignity and respect; that white women and black
-                        men are evaluated unusually harshly when their subordinates feel poorly treated; but that black
-                        female supervisors do not experience this kind of bias.
-                        <!--My findings added to our growing-->
-                        <!--understanding of the complex relationship between race, gender, and workplace outcomes.-->
-                        Click <a href="becker_2017_thesis_short.pdf">here</a> for the short version or
-                        <a href="becker_2017_thesis_long.pdf">here</a> for the long version.
-                        <a href="https://flic.kr/p/4y7FkT" style="color:darkgray;">
-                            Image: kellinahandbasket // Flikr //
-                            <!--Image: kellinahandbasket · Flikr ·-->
-                            <i class="fa fa-creative-commons" aria-hidden="true"></i>
-                        </a>
-                    </p>
-                </article>
-
-                <!--<article class="4u 12u(mobile) special">-->
-                <!--<a href="#" class="image featured"><img src="images/jellyfish.jpg" alt="" /></a>-->
-                <!--<header>-->
-                <!--<h3><a href="https://github.com/networks-lab/tidyextractors">jellyfish</a></h3>-->
-                <!--</header>-->
-                <!--<p>-->
-                <!--Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam-->
-                <!--porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.-->
-                <!--<a href="https://flic.kr/p/ep1J5y" style="color:darkgray;">Image: Yu-Chan Chen // Flikr // <i class="fa fa-creative-commons" aria-hidden="true"></i></a>-->
-                <!--</p>-->
-                <!--</article>-->
-
-                <article class="4u 12u(mobile) special">
-                    <a class="image featured"><img src="images/tidyextractors.jpg" alt=""/></a>
-                    <header>
-                        <h3><a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a></h3>
-                    </header>
-                    <p>
-                        I created the <a href="https://github.com/networks-lab/tidyextractors">tidyextractors</a>
-                        package to simplify data extraction
-                        for both coders in a hurry and researchers new to Python.
-                        The current version makes it easy to extract ready-to-analyze
-                        datasets from Git repositories, mbox mail archives,
-                        and Twitter user data via the Twitter API, with end-to-end
-                        <em>pandas</em> support. The tool is built to be extended,
-                        with modules for extracting data from Factiva queries and
-                        GitHub issues planned for the near future.
-                        <a href="https://flic.kr/p/7Y3cLB" style="color:darkgray;">
-                            Image: H.L.I.T. // Flikr // <i class="fa fa-creative-commons" aria-hidden="true"></i>
-                        </a>
-                    </p>
-                </article>
             </div>
         </section>
 
     </div>
+
 
     <!-- Testimonials -->
     <div class="wrapper style1">
@@ -298,7 +344,7 @@
                                 Mark Weber, Director
                             </a>
                             <br>
-                            <a>Conrad Business, Entrepreneurship, and Technology Center</a>
+                            Conrad School of Entrepreneurship and Business
                         </h3>
                     </header>
                     <p>
@@ -341,9 +387,9 @@
                         <h3><a href="http://www.johnmclevey.com/" style="font-weight: bold">John McLevey, Assistant
                             Professor</a>
                             <br>
-                            <a>University of Waterloo</a>
+                            University of Waterloo
                             <br>
-                            <a>Department of Knowledge Integration</a>
+                            Department of Knowledge Integration
                         </h3>
                     </header>
                     <p>
@@ -367,9 +413,9 @@
                                 Winny Shen, Assistant Professor
                             </a>
                             <br>
-                            <a>University of Waterloo</a>
+                            University of Waterloo
                             <br>
-                            <a>Department of Psychology</a>
+                            Department of Psychology
                         </h3>
                     </header>
                     <p>
@@ -384,6 +430,8 @@
         </section>
 
     </div>
+
+
 
 
     <!-- Footer -->
