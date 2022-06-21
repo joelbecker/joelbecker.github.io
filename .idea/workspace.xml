@@ -6,118 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="054400a9-2e1e-4ada-bbde-be0b017f7e25" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/PIE.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.dropotron.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.onvisible.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/ie8.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/jellyfish/8793058944_8aae247872_z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/jellyfish/jellyfish_note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicons/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/abstract_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/abstract_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boxes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/business_silhouettes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dacapo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/deviant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/excavator.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fairness.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fpm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header_old.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_builder.pxm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jellyfish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/john_mclevey.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/john_mclevey_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/library copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/library.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mark_weber.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mark_weber_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/network.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic04_python 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic04_scala.pxm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic04_sql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic05_blue.pxm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06 is the background image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06_python.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06_scala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic06_sql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pic15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/presto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/presto.pxm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/python.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ramona_bobocel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ramona_bobocel_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/recordlinkage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/research.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/scala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spark.pxm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sqlcoach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/student.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/temp_header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thesis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thesis_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thesis_img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tidyextractors.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/winny_shen_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zipper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +93,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="2AreNfjg97JCGq1dlXLloOGvDlM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -242,12 +132,21 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -574,6 +473,7 @@
       <projects_view />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
