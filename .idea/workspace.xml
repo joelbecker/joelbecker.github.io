@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="054400a9-2e1e-4ada-bbde-be0b017f7e25" name="Default" comment="">
+    <list default="true" id="054400a9-2e1e-4ada-bbde-be0b017f7e25" name="Default" comment="Adds comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-monument/images/monument01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-monument/images/monument02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-monument/images/monument03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-monument/images/monument04.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/the-monument/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/the-monument/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -505,6 +509,14 @@
       <workItem from="1508172361778" duration="3049000" />
       <workItem from="1511884160027" duration="67000" />
     </task>
+    <task id="LOCAL-00001" summary="Adds comment">
+      <created>1663541328281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663541328281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -558,6 +570,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds comment" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
