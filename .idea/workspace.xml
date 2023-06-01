@@ -5,12 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="054400a9-2e1e-4ada-bbde-be0b017f7e25" name="Default" comment="Adds comment">
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/jquery.scrollex.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_actions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_items.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_spotlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/images/cafka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/images/glitch01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/images/glitch02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/where-are-the-zines/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-monument/images/monument01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-monument/images/monument02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-monument/images/monument03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-monument/images/monument04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-monument/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/the-monument/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +197,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/joelweberbecker/IdeaProjects/joelbecker.github.io/where-are-the-zines/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/where-are-the-zines/images" />
+      <recent name="$PROJECT_DIR$/where-are-the-zines" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/where-are-the-zines/images" />
+      <recent name="$PROJECT_DIR$/where-are-the-zines" />
       <recent name="$PROJECT_DIR$/the-monument/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
