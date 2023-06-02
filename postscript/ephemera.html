@@ -1,1 +1,69 @@
-<p>Coming soon!</p>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Digital Ephemera: Postscript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+            window.onload = function() {
+                
+                    setImageSource('title-image-0', 'images/ephemera-bday.png');
+                
+                    setImageSource('left-image-1', 'images/ephemera-pokemon-1.png');
+                
+                    setImageSource('right-image-2', 'images/ephemera-pokemon-2.png');
+                
+                    setImageSource('left-image-3', 'images/ephemera-pokemon-3.png');
+                
+            };
+
+            function setImageSource(imageId, imagePath) {
+                var img = document.getElementById(imageId);
+                var filename = imagePath.split('/').pop();
+                if (window.location.hostname === 'localhost') {
+                    img.src = imagePath;
+                } else {
+                    img.src = 'https://media.githubusercontent.com/media/joelbecker/joelbecker.github.io/master/where-are-the-zines/' + imagePath;
+                }
+            }
+        </script>
+</head><section class="banner style2 fullscreen onload-image-fade-in onload-content-fade-right" id="section0">
+    <div class="content">
+        <h1>Digital Ephemera: Postscript</h1>
+        <p class="major">Today we have instagram babies; I was a bmp baby.</p>
+        <ul class="actions stacked">
+            <li><a href="#scroll-to-section" class="button big wide smooth-scroll-middle">↓</a></li>
+        </ul>
+    </div>
+    <div class="image">
+        <img id="title-image-0" alt="" />
+    </div>
+</section><section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="scroll-to-section">
+    <div class="content">
+        <p>Content of the left section.</p>
+    </div>
+    <div class="image">
+        <img id="left-image-1" alt="" />
+    </div>
+</section><section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="section2">
+    <div class="content">
+        <p>Content of the right section.</p>
+    </div>
+    <div class="image">
+        <img id="right-image-2" alt="" />
+    </div>
+</section><section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="section3">
+    <div class="content">
+        <p>Content of the right section.</p>
+    </div>
+    <div class="image">
+        <img id="left-image-3" alt="" />
+    </div>
+</section><footer class="wrapper style1 align-center">
+    <div class="inner">
+        <p>Visions of Entropy is part of Stay with Me, CAFKA’s 2023 biennial exhibition of public art.</p>
+        <p>&copy; Joel Becker. Site design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </div>
+</footer>
