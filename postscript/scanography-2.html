@@ -11,8 +11,6 @@
                 
                     setImageSource('title-image-0', 'images/scanography-2-A.jpg');
                 
-                    setImageSource('', '');
-                
             };
 
             function setImageSource(imageId, imagePath) {
@@ -21,7 +19,7 @@
                 if (window.location.hostname === 'localhost') {
                     img.src = imagePath;
                 } else {
-                    img.src = 'https://media.githubusercontent.com/media/joelbecker/joelbecker.github.io/master/postscript' + imagePath;
+                    img.src = 'https://media.githubusercontent.com/media/joelbecker/joelbecker.github.io/master/postscript/' + imagePath;
                 }
             }
         </script>
