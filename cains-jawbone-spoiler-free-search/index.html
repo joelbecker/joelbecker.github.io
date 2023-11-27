@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+	Theme used is: Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cain's Jawbone: Spoiler-Free Search</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style2 fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Cain's Jawbone: Spoiler-Free Search</h1>
+							<p class="major">
+								A quick way to search Google for terms and context, but
+								excluding material explicitly related to Cain's Jawbone.
+								This helps avoid spoilers for certain terms that are uncommon
+								or used idiosyncratically in the mystery.
+							</p>
+							<form id="noSpoilerSearch" onsubmit="search(event)">
+								<input type="text" id="searchTerm" placeholder="Enter search term..." required>
+								<br>
+								<button type="submit" class="button big wide">Search</button>
+							</form>
+<!--							<ul class="actions stacked">-->
+<!--								<li><a href="#first" class="button big wide smooth-scroll-middle">start</a></li>-->
+<!--							</ul>-->
+						</div>
+						<div class="image">
+							<img src="images/banner.jpg" alt="" />
+						</div>
+					</section>
+				</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function search(event) {
+					event.preventDefault(); // Prevent the form from submitting in the traditional way
+					var searchTerm = document.getElementById('searchTerm').value;
+					var query = searchTerm + ' -"Cain\'s Jawbone"'; // Append the condition to exclude the mystery
+					var searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+					window.open(searchUrl, '_blank'); // Open the search in a new tab
+				}
+			</script>
+	</body>
+</html>
