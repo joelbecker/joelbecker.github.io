@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Risograph Demo</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.riso.js"></script>
+  </head>
+
+  <body>
+    <div id="left-panel">
+      <h2>Risograph Style</h2>
+      
+      <!-- Controls Section -->
+      <div class="section">
+        <div class="button-row">
+          <button id="regenerate" class="small-btn">Regenerate</button>
+          <button id="export" class="small-btn">Save</button>
+        </div>
+      </div>
+
+      <!-- Image Select Section -->
+      <div class="section">
+        <h3>Image</h3>
+        <div id="image-drop-zone" class="drop-zone">
+          <p>Drag & drop image here or click to select</p>
+          <input type="file" id="imageInput" accept="image/*" style="display: none;">
+        </div>
+        <div class="current-image-info">
+          <small>Current: Crystals (Wikipedia)</small>
+        </div>
+      </div>
+
+      <!-- Risograph Settings Section -->
+      <div class="section">
+        <h3>Risograph Settings</h3>
+        
+        <div class="inline-control">
+          <label for="blendMode">Blend Mode:</label>
+          <select id="blendMode">
+            <option value="BLEND">BLEND (default)</option>
+            <option value="ADD">ADD</option>
+            <option value="DARKEST">DARKEST</option>
+            <option value="LIGHTEST">LIGHTEST</option>
+            <option value="EXCLUSION">EXCLUSION</option>
+            <option value="MULTIPLY">MULTIPLY</option>
+            <option value="SCREEN">SCREEN</option>
+            <option value="REPLACE">REPLACE</option>
+            <option value="REMOVE" selected>REMOVE</option>
+            <option value="DIFFERENCE">DIFFERENCE</option>
+            <option value="OVERLAY">OVERLAY</option>
+            <option value="HARD_LIGHT">HARD_LIGHT</option>
+            <option value="SOFT_LIGHT">SOFT_LIGHT</option>
+            <option value="DODGE">DODGE</option>
+            <option value="BURN">BURN</option>
+          </select>
+        </div>
+
+        <div class="inline-control">
+          <label for="textureSelect">Texture:</label>
+          <select id="textureSelect">
+            <option value="fabric-compressed.jpg">Fabric</option>
+            <option value="RSCO-Risograph-Sample-10-percent-compressed.jpg">Light (10%)</option>
+            <option value="RSCO-Risograph-Sample-20-percent-compressed.jpg">Subtle (20%)</option>
+            <option value="RSCO-Risograph-Sample-30-percent-compressed.jpg">Mild (30%)</option>
+            <option value="RSCO-Risograph-Sample-40-percent-compressed.jpg">Medium (40%)</option>
+            <option value="RSCO-Risograph-Sample-50-percent-compressed.jpg">Moderate (50%)</option>
+            <option value="RSCO-Risograph-Sample-60-percent-compressed.jpg">Strong (60%)</option>
+            <option value="RSCO-Risograph-Sample-70-percent-compressed.jpg">Heavy (70%)</option>
+            <option value="RSCO-Risograph-Sample-80-percent-compressed.jpg">Intense (80%)</option>
+            <option value="RSCO-Risograph-Sample-90-percent-compressed.jpg" selected>Rough (90%)</option>
+            <option value="RSCO-Risograph-Sample-100-percent-compressed.jpg">Extreme (100%)</option>
+          </select>
+        </div>
+
+        <div class="inline-control">
+          <label for="defaultJitterPixels">Jitter (pixels):</label>
+          <input type="number" id="defaultJitterPixels" min="0" max="20" value="2" step="1">
+        </div>
+
+        <div class="inline-control">
+          <label for="defaultJitterRotation">Rotation (degrees):</label>
+          <input type="number" id="defaultJitterRotation" min="0" max="10" value="0.5" step="0.1">
+        </div>
+
+        <div class="inline-control">
+          <label for="textOpacity">Texture Opacity:</label>
+          <input type="number" id="textOpacity" min="50" max="255" value="150" step="5">
+        </div>
+      </div>
+
+      <!-- Text Section -->
+      <div class="section">
+        <h3>Text</h3>
+        
+        <div class="inline-control">
+          <label for="textContent">Content:</label>
+          <input type="text" id="textContent" value="ABOLISH">
+        </div>
+
+        <div class="inline-control">
+          <label for="textSize">Size:</label>
+          <input type="number" id="textSize" min="20" max="200" value="80" step="5">
+        </div>
+
+        <div class="inline-control">
+          <label for="textX">X Position:</label>
+          <input type="number" id="textX" min="0" max="100" value="50" step="1">
+          <span class="unit">%</span>
+        </div>
+
+        <div class="inline-control">
+          <label for="textY">Y Position:</label>
+          <input type="number" id="textY" min="0" max="100" value="70" step="1">
+          <span class="unit">%</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="canvas-container">
+      <script src="sketch.js"></script>
+    </div>
+
+    <div id="right-panel">
+      <!-- Layers Section -->
+      <div class="section">
+        <h3>Layers / Channels</h3>
+        <button id="addLayerBtn">Add Layer</button>
+        <div id="layers-container"></div>
+      </div>
+    </div>
+  </body>
+</html>

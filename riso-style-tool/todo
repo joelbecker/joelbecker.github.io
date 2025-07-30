@@ -1,0 +1,3 @@
+- Default to a different channel for each layer (if possible)
+- Handle large files for gracefully
+- Increase canvas margin, maybe add an option to increase it
