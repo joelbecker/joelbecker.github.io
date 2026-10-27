@@ -12,6 +12,47 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Blog previews, filled in by scripts/update_blog.py */
+			.blog-posts {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 2rem;
+				margin-bottom: 2rem;
+			}
+			.blog-post {
+				border-bottom: 0;
+				color: inherit;
+				display: block;
+				text-decoration: none;
+			}
+			.blog-post img {
+				aspect-ratio: 3 / 2;
+				display: block;
+				margin-bottom: 1rem;
+				object-fit: cover;
+				width: 100%;
+			}
+			.blog-post:hover h3 {
+				text-decoration: underline;
+			}
+			.blog-post h3 {
+				margin-bottom: 0.25rem;
+			}
+			.blog-post p {
+				margin-bottom: 0;
+			}
+			.blog-post .blog-date {
+				font-size: 0.8rem;
+				margin-bottom: 0.5rem;
+				opacity: 0.6;
+			}
+			@media screen and (max-width: 736px) {
+				.blog-posts {
+					grid-template-columns: minmax(0, 1fr);
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -30,6 +71,58 @@
 						</header>
 						<div class="content">
 							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
+		<!-- Section -->
+					<section>
+						<header>
+							<h2>worse.ink</h2>
+						</header>
+						<div class="content">
+							<p>
+								<a href="https://worse.ink">worse.ink</a> is my indie publishing label, online store, and blog. Check it out for zines, puzzles, art prints, and worse!
+							</p>
+						</div>
+					</section>
+
+					
+		<!-- Section -->
+					<section>
+						<header>
+							<h2>Blog</h2>
+						</header>
+						<div class="content">
+							<!-- blog:start -->
+							<div class="blog-posts">
+								<a class="blog-post" href="https://worse.ink/blogs/art/zine-remix-workshop-an-art-assignment">
+									<img src="https://worse.ink/cdn/shop/articles/zine-remix-banner_c8574a77-3cb8-4b93-a2e5-f700632c3fab.png?v=1785537834&amp;width=800" alt="" loading="lazy" />
+									<h3>Zine Remix workshop: An art assignment</h3>
+									<p class="blog-date">July 31, 2026</p>
+									<p>I thought about making zines for a long time before I made any. I had grand plans for my first zine, but I was never quite ready to do the idea justice. So I…</p>
+								</a>
+								<a class="blog-post" href="https://worse.ink/blogs/art/last-days-gmtk-game-jam-26">
+									<img src="https://worse.ink/cdn/shop/articles/last_days_embed.png?v=1785183779&amp;width=800" alt="" loading="lazy" />
+									<h3>Last Days (GMTK Game Jam 26)</h3>
+									<p class="blog-date">July 26, 2026</p>
+									<p>For this year&#x27;s GMTK Game Jam (theme of Countdown) I created a game called Last Days: a narrative puzzle game where you are unravelling stories from ancient…</p>
+								</a>
+								<a class="blog-post" href="https://worse.ink/blogs/art/has-this-ever-happened-to-you">
+									<img src="https://worse.ink/cdn/shop/articles/has_this_ever_happened_to_you.png?v=1785344944&amp;width=800" alt="" loading="lazy" />
+									<h3>Has this ever happened to you?</h3>
+									<p class="blog-date">July 22, 2026</p>
+									<p>Has this ever happened to you? You’re sitting down to collage the $2 stamp collection you thrifted and OH NO turns out it’s mostly 20th century German stamps…</p>
+								</a>
+								<a class="blog-post" href="https://worse.ink/blogs/art/the-origin-of-worse">
+									<img src="https://worse.ink/cdn/shop/articles/mixtape_blackberry_origin.jpg?v=1780838934&amp;width=800" alt="" loading="lazy" />
+									<h3>Mixtapes, BlackBerries, and the origins of Worse</h3>
+									<p class="blog-date">June 7, 2026</p>
+									<p>When I started sharing art with the world, my one-liner was &quot;glitch art, zines, collages, and worse by Joel Becker.&quot; This is a reference to Gary Larson&#x27;s final…</p>
+								</a>
+							</div>
+							<ul class="actions">
+								<li><a href="https://worse.ink/blogs/art" class="button">More on worse.ink</a></li>
+							</ul>
+							<!-- blog:end -->
 						</div>
 					</section>
 
@@ -468,20 +561,11 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 						</header>
 						<div class="content">
 							<p>
-								If you're interested in what I'm up to, you can
-								<a href="mailto:mail@joelbecker.ca">contact me via email</a>
-								or check me out on
-								<a href="https://www.instagram.com/funkle.joel/">
-									instagram
-								</a> or
-								<a href="https://www.linkedin.com/in/joel-becker-8b82a2127/">
-									linkedin
-								</a>
-								.
+								The best way to be in touch is through the
+								<a href="https://worse.ink/pages/contact">worse.ink contact page</a>!
 							</p>
 						</div>
 					</section>
-
 					<div class="copyright">&copy; Joel Becker. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
 
 			</div>

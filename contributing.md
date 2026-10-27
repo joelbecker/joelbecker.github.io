@@ -1,0 +1,1 @@
+Blog preview actions add commits to main. `git pull` before making changes locally.

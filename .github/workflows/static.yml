@@ -9,9 +9,14 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Refreshes the blog previews daily
+  schedule:
+    - cron: "0 9 * * *"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# and committing refreshed blog previews
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +38,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+      - name: Update blog previews
+        run: python3 scripts/update_blog.py
+      # Commits made with GITHUB_TOKEN don't trigger another run, so this deploys below as usual
+      - name: Commit blog previews
+        run: |
+          if ! git diff --quiet index.html; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update blog previews" index.html
+            git push
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
